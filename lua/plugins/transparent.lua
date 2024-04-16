@@ -1,6 +1,5 @@
 return {
   {
-    "xiyaowong/transparent.nvim",
-    -- lazy = false,
+    require("base46").toggle_transparency()
   },
 }
