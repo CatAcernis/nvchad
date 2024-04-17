@@ -12,6 +12,6 @@ map("n", "<S-h>", ":bprevious <CR>")
 map("n", "<S-l>", ":bnext <CR>")
 
 -- transparent
-map("n", "<leader>tt", ":TransparentToggle <CR>")
+map("n", "<leader>tt", ":lua require('base46').toggle_transparency() <CR>", { noremap = true, silent = true, desc = "Toggle transparency" })
 
 -- map({ "n", "i", "v" }, "<C-s>", "<cmd> w <cr>")
