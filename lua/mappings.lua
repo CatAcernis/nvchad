@@ -8,7 +8,7 @@ map("n", ";", ":", { desc = "CMD enter command mode" })
 -- map("i", "jk", "<ESC>")
 
 -- Nvimreee
-map("n", "<leader>e", "NvimTreeToggle <CR>", { desc = "NvimTree Toggle" })
+map("n", "<leader>e", ":NvimTreeToggle <CR>", { noremap = true, desc = "NvimTree Toggle" })
 
 -- move focus between buffers
 map("n", "<S-h>", ":bprevious <CR>")
