@@ -5,7 +5,10 @@ require "nvchad.mappings"
 local map = vim.keymap.set
 
 map("n", ";", ":", { desc = "CMD enter command mode" })
-map("i", "jk", "<ESC>")
+-- map("i", "jk", "<ESC>")
+
+-- Nvimreee
+map("n", "<leader>e", "NvimTreeToggle <CR>", { desc = "NvimTree Toggle" })
 
 -- move focus between buffers
 map("n", "<S-h>", ":bprevious <CR>")
