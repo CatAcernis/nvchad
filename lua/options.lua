@@ -19,4 +19,5 @@ if g.neovide then
   g.neovide_cursor_animation_length = 0.03
   g.neovide_cursor_trail_size = 0.9
   g.neovide_remember_window_size = true
+  g.neovide_input_macos_alt_is_meta = true
 end
